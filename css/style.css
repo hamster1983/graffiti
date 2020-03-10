@@ -1,16 +1,17 @@
-/*@font-face {
-	font-family: GothamPro;
-	src: url(../fonts/Gotham_Pro.ttf);
+@font-face {
+	font-family: TTChocolates;
+	src: url(../fonts/TTChocolates-Regular.ttf);
 }
 body {
-	font-family: GothamPro, sans-serif;
-}*/
+	font-family: TTChocolates, sans-serif;
+}
 h2, .subtitle {
 	text-align: center;
 	font-weight: bold;
 }
 @media (min-width: 1600px) {
-	.container {
+	.container,
+	.container-xl {
 		max-width: 1390px;
 	}
 }
@@ -38,7 +39,8 @@ section:not(.container) {
 .btn-blue {
 	display: block;
 	border: none;
-	max-width: 300px;
+	width: 100%;
+	max-width: 310px;
 	margin: 0 auto;
 	height: 50px;
 	border-radius: 30px;
@@ -46,7 +48,39 @@ section:not(.container) {
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #0abef0;
+	outline: none !important;
+	transition: .3s;
 }
+.btn-blue:hover {
+	background-color: #0aaaf0;
+}
+header {
+	box-shadow: 0 -2px 5px black;
+}
+header [class^="col"] {
+	border: 1px solid red;
+}
+.top-logo span {
+	font-size: 25px;
+	padding-left: 57px;
+}
+.top-contacts img {
+	width: 45px;
+	margin: 10px 8px 0;
+}
+.top-contacts p {
+	margin-right: 15px;
+	text-align: center;
+}
+.top-contacts .tel {
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+}
+.top-contacts .zvonok {
+	font-size: 18px;
+}
+
 .questions {
 	padding: 80px 15px;
 	max-width: 900px;

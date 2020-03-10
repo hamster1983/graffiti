@@ -1,1 +1,9 @@
-#0abef0
+#0abef0 - основной синий
+
+шрифты:
+TTChocolates Bold
+TTChocolates Light
+TTChocolates Regular
+
+290 на 135
+340 на 340

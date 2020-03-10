@@ -10,7 +10,7 @@
 	<meta property="og:title" content="" />
  	<meta property="og:description" content="" />
 	<meta property="og:image" content="" />
-	<link href="" rel="shortcut icon" type="image/x-icon" />
+	<link href="img/fav.png" rel="shortcut icon" type="image/x-icon" />
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/slick.css" rel="stylesheet" type="text/css" />
 	<link href="css/slick-theme.css" rel="stylesheet" type="text/css" />
@@ -19,9 +19,20 @@
 <body>
 	<!--<div class="up">&#9650;</div>-->
 	<header>
-		<div class="container">
+		<div class="container-xl pt-3 pb-1">
 			<div class="row">
-				
+				<div class="col-lg-4 top-logo">
+					<img src="img/top-logo.png" alt="" class="img-fluid" /><br /><span>граффити | роспись стен</span>
+				</div>
+				<div class="col-lg-4 top-btn"><button class="btn-blue">Получить конкультацию</button></div>
+				<div class="col-lg-4 top-contacts d-flex justify-content-end">
+					<p>
+						<a href="tel:+78126790799" class="tel">+7 (812) 679-07-99</a><br />
+						<a href="#graffiti" data-toggle="modal" class="zvonok">Заказать звонок</a>
+					</p>
+					<a href=""><img src="img/whatsapp.png" alt="" /></a>
+					<a href=""><img src="img/viber.png" alt="" /></a>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -103,7 +114,7 @@
 		<div class="modal-dialog mt-5" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title text-center font-weight-bold">Введите контакты для отправки информации</h5>
+					<h5 class="modal-title font-weight-bold w-100 text-center">Введите контакты для отправки информации</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
@@ -118,7 +129,7 @@
 								<input type="text" name="phone" class="form-control" placeholder="Ваш телефон" required>
 							</div>
 							<div class="col-12 py-2">
-								<input type="submit" name="submit" class="form-control" value="ОСТАВИТЬ ЗАЯВКУ">
+								<input type="submit" name="submit" class="form-control btn-blue" value="ОСТАВИТЬ ЗАЯВКУ">
 							</div>
 						</div>
 					</form>
