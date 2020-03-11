@@ -7,3 +7,7 @@ TTChocolates Regular
 
 290 на 135
 340 на 340
+
+#f6fafe - why we
+
+#efefef - etapy num

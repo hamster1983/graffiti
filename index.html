@@ -19,27 +19,82 @@
 <body>
 	<!--<div class="up">&#9650;</div>-->
 	<header>
-		<div class="container-xl pt-3 pb-1">
+		<div class="container-xl">
 			<div class="row">
-				<div class="col-lg-4 top-logo">
+				<div class="col-lg-4 top-logo text-center text-lg-left">
 					<img src="img/top-logo.png" alt="" class="img-fluid" /><br /><span>граффити | роспись стен</span>
 				</div>
-				<div class="col-lg-4 top-btn"><button class="btn-blue">Получить конкультацию</button></div>
-				<div class="col-lg-4 top-contacts d-flex justify-content-end">
+				<div class="col-lg-4 top-btn py-3 py-lg-0"><button class="btn-blue" data-toggle="modal" data-target="#graffiti">Получить конкультацию</button></div>
+				<div class="col-lg-4 top-contacts d-flex justify-content-center justify-content-lg-end px-0">
 					<p>
 						<a href="tel:+78126790799" class="tel">+7 (812) 679-07-99</a><br />
 						<a href="#graffiti" data-toggle="modal" class="zvonok">Заказать звонок</a>
 					</p>
-					<a href=""><img src="img/whatsapp.png" alt="" /></a>
-					<a href=""><img src="img/viber.png" alt="" /></a>
+					<a href="viber://add?number="><img src="img/viber.png" alt="" /></a>
+					<a href="whatsapp://send?phone=+"><img src="img/whatsapp.png" alt="" /></a>
 				</div>
 			</div>
 		</div>
 	</header>
 	
-	<main class="container">
-	
+	<main class="container pb-0 pt-5 py-lg-5">
+		<h1>Бобылев Михаил<br /><p>графиити оформление<br />роспись стен и фасадов</p></h1>
+		<p class="main-text">
+			- от 2500 руб / м<sup>2</sup><br />
+			- минимальная стоимость проекта 20 тыс.<br />
+			- материалы включены
+		</p>
+		<button class="btn-white ml-lg-0 mt-5 mb-lg-3" data-toggle="modal" data-target="#graffiti">Получить конкультацию</button>
+		<img src="img/bobylev.png" alt="" class="bobylev" />
 	</main>
+	
+	<section class="top-slider-wrap">
+		<div class="top-slider">
+			<div>
+				<div class="top-slider-item">
+					<img src="img/top-slide-1.jpg" alt="" />
+					<p class="work">Граффити роспись интерьера</p>
+					<span class="price">от 5500 руб / м<sup>2</sup></span>
+				</div>
+			</div>
+			<div>
+				<div class="top-slider-item">
+					<img src="img/top-slide-2.jpg" alt="" />
+					<p class="work">Граффити роспись интерьера</p>
+					<span class="price">от 5500 руб / м<sup>2</sup></span>
+				</div>
+			</div>
+			<div>
+				<div class="top-slider-item">
+					<img src="img/top-slide-3.jpg" alt="" />
+					<p class="work">Наружная реклама</p>
+					<span class="price">от 3000 руб / м<sup>2</sup></span>
+				</div>
+			</div>
+			<div>
+				<div class="top-slider-item">
+					<img src="img/top-slide-4.jpg" alt="" />
+					<p class="work">Граффити роспись интерьера</p>
+					<span class="price">от 3500 руб / м<sup>2</sup></span>
+				</div>
+			</div>
+			<div>
+				<div class="top-slider-item">
+					<img src="img/top-slide-5.jpg" alt="" />
+					<p class="work">Граффити роспись интерьера</p>
+					<span class="price">от 3500 руб / м<sup>2</sup></span>
+				</div>
+			</div>
+			<div>
+				<div class="top-slider-item">
+					<img src="img/top-slide-6.jpg" alt="" />
+					<p class="work">Граффити роспись интерьера</p>
+					<span class="price">от 2000 руб / м<sup>2</sup></span>
+				</div>
+			</div>
+		</div>
+		<p class="minimal-price">Минимальная стоимость проекта 20 тыс.</p>
+	</section>
 	
 	<section class="questions">
 		<h2>Где будет будущая роспись?</h2>
@@ -59,10 +114,31 @@
 		</form>
 	</section>
 	
-	<section class="advantages py-4">
+	<section class="advantages py-5">
 		<div class="container">
-			<h2>НАШИ ПРЕИМУЩЕСТВА</h2>
-			
+			<h2>НАШИ ПРЕИМУ&shy;ЩЕСТВА</h2>
+			<div class="row">
+				<div class="col">
+					<p class="adv-text">дизайн проект<br />под ключ</p>
+					<img src="img/preim1.jpg" alt="" />
+				</div>
+				<div class="col">
+					<p class="adv-text">рекомендации<br />эксперта</p>
+					<img src="img/preim2.jpg" alt="" />
+				</div>
+				<div class="col">
+					<p class="adv-text">какие материалы<br />(гипоаллергенные<br />или влагостойкие)</p>
+					<img src="img/preim3.jpg" alt="" />
+				</div>
+				<div class="col">
+					<p class="adv-text">проекты любой<br />сложности</p>
+					<img src="img/preim4.jpg" alt="" />
+				</div>
+				<div class="col">
+					<p class="adv-text">гарантия<br />на работу</p>
+					<img src="img/preim5.jpg" alt="" />
+				</div>
+			</div>
 		</div>
 	</section>
 	
@@ -81,6 +157,84 @@
 				</div>
 			</div>
 		</form>
+	</section>
+	
+	<section class="why-we pt-5 pb-3">
+		<div class="container">
+			<h2>ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
+			<div class="row why-we-top-row">
+				<div class="col">
+					<img src="img/why-we-1.jpg" alt="" />
+					<p class="why-we-text">1000 идей для<br />решения<br />задач</p>
+				</div>
+				<div class="col">
+					<img src="img/why-we-2.jpg" alt="" />
+					<p class="why-we-text">Делаем свое дело<br />с любовью</p>
+				</div>
+				<div class="col">
+					<img src="img/why-we-3.jpg" alt="" />
+					<p class="why-we-text">Работаем<br />максимально<br />оперативно</p>
+				</div>
+			</div>
+			<div class="row why-we-bottom-row">
+				<div class="col">
+					<img src="img/why-we-4.jpg" alt="" />
+					<p class="why-we-text">Работаем в Питере<br />и по всей стране</p>
+				</div>
+				<div class="col">
+					<img src="img/why-we-5.jpg" alt="" />
+					<p class="why-we-text">Опыт работы<br />10 лет</p>
+				</div>
+				<div class="col">
+					<img src="img/why-we-6.jpg" alt="" />
+					<p class="why-we-text">Художественное<br />образование</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="etapy py-5">
+		<div class="container">
+			<h2>5 понятных этапов</h2>
+			<p class="subtitle">до готового проекта</p>
+			<div class="row py-4 justify-content-center">
+				<div class="col-sm-auto">
+					<div class="etap-num">1</div>
+					<div class="etap-pic">
+						<img src="img/etap-1.png" alt="" />
+						Обращение<br />и&nbsp;консультация<br />по телефону
+					</div>
+				</div>
+				<div class="col-sm-auto">
+					<div class="etap-num">2</div>
+					<div class="etap-pic">
+						<img src="img/etap-2.png" alt="" />
+						Встреча,<br />замеры
+					</div>
+				</div>
+				<div class="col-sm-auto">
+					<div class="etap-num">3</div>
+					<div class="etap-pic">
+						<img src="img/etap-3.png" alt="" />
+						Разработка<br />эскиза
+					</div>
+				</div>
+				<div class="col-sm-auto">
+					<div class="etap-num">4</div>
+					<div class="etap-pic">
+						<img src="img/etap-4.png" alt="" />
+						Дизайн<br />-проект
+					</div>
+				</div>
+				<div class="col-sm-auto">
+					<div class="etap-num">5</div>
+					<div class="etap-pic">
+						<img src="img/etap-5.png" alt="" />
+						Оформление<br />проекта
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	
 	<section class="questions">

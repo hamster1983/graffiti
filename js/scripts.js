@@ -22,53 +22,44 @@ $(document).ready(function(){
 		})
 	});
 	
-	$('.top-icons').slick({
+	$('.top-slider').slick({
 	  infinite: true,
 	  autoplay: true,
-	  autoplaySpeed: 1000,
+	  autoplaySpeed: 1500,
 	  arrows: false,
 	  dots: false,
-	  speed: 1000,
-	  slidesToShow: 11,
-	  slidesToScroll: 3,
+	  speed: 1500,
+	  slidesToShow: 6,
+	  slidesToScroll: 1,
 	  responsive: [
 		{
 		  breakpoint: 1600,
-		  settings: {
-			slidesToShow: 9,
-		  }
-		},
-		{
-		  breakpoint: 1199,
-		  settings: {
-			slidesToShow: 7,
-		  }
-		},
-		{
-		  breakpoint: 991,
 		  settings: {
 			slidesToShow: 5,
 		  }
 		},
 		{
-		  breakpoint: 767,
+		  breakpoint: 1199,
 		  settings: {
 			slidesToShow: 4,
-			slidesToScroll: 2,
 		  }
 		},
 		{
-		  breakpoint: 576,
+		  breakpoint: 991,
 		  settings: {
 			slidesToShow: 3,
-			slidesToScroll: 2,
 		  }
 		},
 		{
-		  breakpoint: 480,
+		  breakpoint: 767,
 		  settings: {
 			slidesToShow: 2,
-			slidesToScroll: 2,
+		  }
+		},
+		{
+		  breakpoint: 630,
+		  settings: {
+			slidesToShow: 1,
 		  }
 		}
 	  ] 
