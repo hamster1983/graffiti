@@ -189,7 +189,7 @@ h1 p {
 .minimal-price {
 	text-align: center;
 	font-size: 24px;
-	padding-top: 20px;
+	padding: 20px 15px 0;
 	color: #4e4e4e;
 }
 
@@ -317,10 +317,71 @@ h1 p {
 	}
 }
 
+.our-projects-text {
+	text-align: center;
+	max-width: 580px;
+	margin: 0 auto 40px;
+}
+.bottom-slider-wrap {
+	overflow: hidden;
+}
+.bottom-slider {
+	width: 110%;
+	position: relative;
+	left: -5%;
+}
+.bottom-slider-item {
+	padding: 5px;
+}
+.bottom-slider img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.clients {
+	background-color: #f8f8f8;
+}
+.clients [class^="col"] {
+	text-align: center;
+	padding: 40px 15px;
+}
+.clients img {
+	max-width: 100%;
+}
+
 footer {
 	color: white;
+	background-color: #505050;
+}
+.footer-text {
+	padding: 20px 0 0 60px;
+	max-width: 680px;
+	line-height: 20px;
+}
+.bottom-contacts p {
+	margin: 0 10px;
+}
+.bottom-contacts img {
+	margin: 0 5px;
+}
+.bottom-tel {
+	color: white !important;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+}
+.bottom-mail {
+	color: #58caca !important;
+}
+.soc-icons img {
+	margin: 0 5px;
 }
 .copy {
 	background-color: #616161;
 	margin: 0;
+}
+@media (max-width: 400px) {
+	.footer-text {
+		padding-left: 0;
+	}
 }
